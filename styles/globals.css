@@ -4,6 +4,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(
+      to left top,
+      rgb(199, 244, 255),
+      rgb(178, 173, 255)
+    )
+    fixed;
 }
 
 a {
@@ -13,4 +19,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.page-container {
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 20px rgb(200, 200, 200);
 }
